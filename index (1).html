@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BR SHIFIT | Sites, soluções digitais e suporte em tecnologia</title>
+<meta name="description" content="A BR SHIFIT cria sites profissionais, soluções digitais e oferece suporte e consultoria em tecnologia. Peça seu orçamento.">
+<meta name="theme-color" content="#101412">
+<meta property="og:title" content="BR SHIFIT. Sua ideia. Nossa tecnologia.">
+<meta property="og:description" content="Sites profissionais, soluções digitais e suporte em tecnologia.">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700;800&display=swap">
+<style>
+:root{--gf:#101412;--gf2:#1b221e;--g:#009c3b;--gd:#00762e;--g2:#35e07a;--gt:#00762e;--y:#ffdf00;--bg:#f4f6f3;--card:#fff;--ink:#14201a;--mut:#56645c;--line:#dde3de;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0d110f;--card:#171d1a;--ink:#eef3ef;--mut:#a3b3a9;--line:#27302b;--gt:#35e07a}}
+:root[data-theme=dark]{--bg:#0d110f;--card:#171d1a;--ink:#eef3ef;--mut:#a3b3a9;--line:#27302b;--gt:#35e07a}
+*,*::before,*::after{box-sizing:inherit}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 88px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 Lexend,system-ui,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--gf);z-index:60}
+a{color:inherit}svg{max-width:100%}
+:focus-visible{outline:3px solid var(--y);outline-offset:3px}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;z-index:99;background:#fff;color:#000;padding:8px}
+.w{max-width:1080px;margin:0 auto;padding:0 20px}
+section{padding:56px 0}
+h1,h2,h3{margin:0;line-height:1.15}
+h2{font-size:clamp(26px,5.5vw,40px);letter-spacing:-.6px;font-weight:800;margin-bottom:14px}
+h3{font-size:20px;margin-bottom:8px}
+p{margin:0 0 14px}
+.lead{max-width:62ch;color:var(--mut);font-size:18px}
+.ic{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--gf);color:#fff;border-bottom:1px solid #2a332e}
+.hb{display:flex;align-items:center;gap:14px;height:76px}.lg{height:60px;width:auto;display:block}footer .lg{height:72px}
+.burger{background:none;border:0;padding:8px;cursor:pointer;display:grid;gap:5px}
+.burger i{display:block;width:26px;height:3px;background:#fff;border-radius:2px}
+.logo{display:flex;align-items:center;text-decoration:none}
+.mk{width:40px;height:40px;border-radius:50%;background:var(--g);display:grid;place-items:center}
+.top{display:none;margin-left:auto;gap:22px;font-size:15px}
+.top a{text-decoration:none;color:#cfd8d2}.top a:hover{color:var(--y)}
+@media(min-width:900px){.top{display:flex}.burger{display:none}}
+.pill{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:11px 20px;font:700 15px/1.2 Lexend,sans-serif;text-decoration:none;border:2px solid transparent;cursor:pointer;background:var(--g2);color:#06210f}
+.pill.wh{background:#fff;color:#14201a}
+.pill.gh{background:none;border-color:#44504a;color:#fff}
+.pill.ol{background:none;border-color:var(--gt);color:var(--gt)}
+.st{background:#0b1a12;color:#fff;border-bottom:3px solid;border-image:linear-gradient(90deg,var(--g),var(--g2),var(--y)) 1}
+.st .w{display:flex;align-items:center;gap:12px;min-height:64px;font-size:14px}
+.st .pill{margin-left:auto;padding:9px 16px;font-size:14px}
+.st .sm{opacity:.8}@media(max-width:560px){.st .sm{display:none}}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--g2);animation:p 2s infinite;flex:none}
+@keyframes p{0%{box-shadow:0 0 0 0 #35e07a99}70%,100%{box-shadow:0 0 0 10px #35e07a00}}
+.xb{background:none;border:0;color:#fff;font-size:20px;cursor:pointer;padding:6px}
+.hero{background:var(--gf);color:#fff;padding:40px 0 64px;overflow:hidden}
+.hero .w{display:grid;gap:44px}
+h1{font-size:clamp(30px,7.6vw,54px);letter-spacing:-1px;font-weight:800;margin-bottom:18px}
+.hero p{color:#c3cec7;font-size:18px;max-width:46ch;margin-bottom:26px}
+.row{display:flex;flex-wrap:wrap;gap:12px}
+@media(min-width:900px){.hero .w{grid-template-columns:1.2fr .8fr;align-items:center}}
+.scene{position:relative;width:min(300px,100%);height:380px;margin:0 auto}
+.door{position:absolute;right:0;top:0;width:220px;height:360px;border:7px solid var(--g);border-radius:110px 110px 4px 4px;background:var(--gf2);text-align:center;padding-top:62px}
+.door::after{content:"";position:absolute;left:-16px;right:-16px;bottom:-17px;height:10px;background:#2a332e;border-radius:3px}
+.flag{display:block;width:132px;margin:0 auto;filter:drop-shadow(0 6px 10px #0009);transform-origin:50% 0;animation:wv 5s ease-in-out infinite}
+@keyframes wv{50%{transform:skewX(-3deg) scaleY(.97)}}
+.sign{display:inline-block;margin-top:30px;background:var(--y);color:#14201a;font-weight:800;padding:8px 18px;border-radius:8px;line-height:1.15;transform:rotate(-3deg)}
+.knob{position:absolute;right:16px;top:225px;width:14px;height:14px;border-radius:50%;background:var(--y)}
+.code{position:absolute;left:0;bottom:6px;width:196px;background:#0a0e0c;border:1px solid #33403a;border-radius:10px;padding:12px 14px;font:12px/1.6 ui-monospace,Menlo,Consolas,monospace;color:#d3e8da;text-align:left;margin:0}
+.code b{color:var(--g2);font-weight:400}.code i{color:var(--y);font-style:normal}.code u{color:#7d8c83;text-decoration:none}
+.wa{background:var(--g2);color:#06210f;border-radius:10px;padding:28px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:clamp(20px,5.4vw,28px);line-height:1.25;font-weight:500}
+.grid{display:grid;gap:16px;margin-top:28px}
+@media(min-width:700px){.g2,.g3,.g4{grid-template-columns:1fr 1fr}.sp{grid-column:1/-1}}
+@media(min-width:900px){.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;display:flex;flex-direction:column;align-items:flex-start}
+.card ul{margin:0 0 18px;padding-left:18px;color:var(--mut)}
+.card .pill{margin-top:auto}
+.feat{background:var(--gd);border-color:var(--gd);color:#fff}
+.feat .pill{background:var(--y);color:#14201a}
+.band{background:var(--gd);color:#fff}
+.chk{list-style:none;margin:28px 0 0;padding:0;display:grid;gap:4px 40px}
+.chk li{display:flex;gap:12px;align-items:center;font-size:18px;font-weight:500;padding:14px 0;border-bottom:1px solid #ffffff33}
+.chk li::before{content:"✓";flex:none;width:24px;height:24px;border-radius:50%;background:var(--y);color:#14201a;display:grid;place-items:center;font-size:14px;font-weight:800}
+@media(min-width:700px){.chk{grid-template-columns:1fr 1fr}}
+.n{width:42px;height:42px;border-radius:50%;background:var(--g);color:#fff;display:grid;place-items:center;font-weight:800;font-size:20px;margin-bottom:14px}
+.mut{color:var(--mut)}
+.car{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;margin:28px -20px 0;padding:0 20px 8px}
+.car .card{flex:0 0 82%;scroll-snap-align:center;padding:0;overflow:hidden}
+@media(min-width:700px){.car{display:grid;grid-template-columns:repeat(3,1fr);overflow:visible;margin:28px 0 0;padding:0}}
+.shot{width:100%;height:150px;padding:12px;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:12px 1fr 20px;gap:8px}
+.shot i{background:#ffffff33;border-radius:4px}.shot i:nth-child(1),.shot i:nth-child(4){grid-column:1/-1}.shot i:nth-child(2){grid-column:1/3;background:#ffffff59}
+.s1{background:var(--g)}.s2{background:#2a332e}.s3{background:#a38c00}
+.cb{padding:20px;display:flex;flex-direction:column;align-items:flex-start}
+.tag{background:var(--y);color:#14201a;font-weight:700;font-size:12px;padding:3px 10px;border-radius:99px;margin-bottom:10px}
+.note{font-size:14px;color:var(--mut);margin:12px 0 0}
+.ct{background:var(--gf);color:#fff}
+.ct .lead{color:#c3cec7}
+.cg{display:grid;gap:36px}@media(min-width:900px){.cg{grid-template-columns:1fr 1fr;gap:56px}}
+.cl{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+form{display:grid;gap:14px;max-width:560px}
+label{font-weight:500;font-size:15px;display:grid;gap:6px}
+input,select,textarea{font:inherit;color:#fff;background:var(--gf2);border:2px solid #3a463f;border-radius:10px;padding:12px 14px;width:100%}
+option{color:#14201a}textarea{min-height:120px;resize:vertical}
+[aria-invalid=true]{border-color:#ff8a7a}
+.er{color:#ff9d8f;font-size:14px;min-height:1.2em}
+#ok{background:var(--gf2);border:2px solid var(--g2);border-radius:12px;padding:18px}
+#ok p{margin:0 0 12px}
+footer{background:#0a0d0b;color:#c3cec7;padding:48px 0 24px;font-size:15px}
+.fg{display:grid;gap:28px}@media(min-width:800px){.fg{grid-template-columns:1.4fr 1fr 1fr 1fr}}
+footer h4{margin:0 0 10px;color:#fff;font-size:16px}
+footer a{display:block;text-decoration:none;padding:3px 0}footer a:hover{color:var(--y)}
+footer .logo{display:flex;margin-bottom:12px;color:#fff}
+.fb{margin-top:32px;padding-top:20px;border-top:1px solid #27302b;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}.fb b{color:#fff}
+.tab{position:fixed;right:0;top:46%;z-index:40;writing-mode:vertical-rl;background:var(--card);color:var(--ink);border:2px solid var(--y);border-right:0;border-radius:12px 0 0 12px;padding:14px 8px;font:500 14px Lexend,sans-serif;text-decoration:none}
+#bg{position:fixed;inset:0;background:#000a;z-index:65}
+#dr{position:fixed;inset:0 auto 0 0;width:min(88vw,420px);z-index:70;display:flex;transform:translateX(-100%);visibility:hidden;transition:transform .25s,visibility .25s}
+#dr.on{transform:none;visibility:visible}
+.rail{width:56px;background:var(--gf);color:#9aa8a0;display:flex;flex-direction:column;align-items:center;gap:8px;padding:calc(env(safe-area-inset-top,0px) + 14px) 0}
+.rail button{width:44px;height:44px;border:0;border-radius:50%;background:none;color:inherit;cursor:pointer;display:grid;place-items:center}
+.rail .on{background:#2a332e;color:#fff}
+.pnl{flex:1;background:#fafafa;color:#14201a;overflow:auto;padding:calc(env(safe-area-inset-top,0px) + 28px) 24px 28px}
+.pnl h2{font-size:22px;margin-bottom:12px}
+.pnl a{display:block;padding:14px 0;font-weight:500;font-size:18px;text-decoration:none}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Ir para o conteúdo</a>
+<header><div class="w hb">
+<button class="burger" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i><i></i></button>
+<a class="logo" href="#inicio" aria-label="BR SHIFIT, início"><img class="lg" src="logo.png" alt="BR SHIFIT" width="140" height="62"></a>
+<nav class="top" aria-label="Principal"><a href="#sobre">Quem somos</a><a href="#servicos">Serviços</a><a href="#processo">Processo</a><a href="#portfolio">Portfólio</a><a href="#contato">Contato</a></nav>
+</div></header>
+<div class="st"><div class="w"><span class="dot"></span><b>Aberto 24h</b><span class="sm">Peça seu orçamento a qualquer hora</span><a class="pill" href="#contato">Orçamento ↗</a><button class="xb" id="sc" aria-label="Fechar aviso">✕</button></div></div>
+
+<main id="main">
+<section class="hero" id="inicio"><div class="w">
+<div>
+<h1>TECNOLOGIA QUE TRANSFORMA IDEIAS EM REALIDADE.</h1>
+<p>Desenvolvemos soluções digitais, criamos sites profissionais e ajudamos pessoas e empresas a aproveitarem o melhor da tecnologia.</p>
+<div class="row"><a class="pill" href="#servicos">Conheça nossos serviços</a><a class="pill gh" href="#contato">Solicite um orçamento</a></div>
+</div>
+<div class="scene">
+<div class="door">
+<svg class="flag" viewBox="0 0 720 504" role="img" aria-label="Bandeira do Brasil"><rect width="720" height="504" fill="#009c3b"/><path d="M360 42 678 252 360 462 42 252z" fill="#ffdf00"/><circle cx="360" cy="252" r="126" fill="#002776"/><path d="M236 268Q360 308 486 232L486 208Q360 282 236 244z" fill="#fff"/><path id="bn" d="M236 256Q360 295 486 220" fill="none"/><text font-size="17" font-weight="700" fill="#002776" font-family="Lexend,sans-serif" letter-spacing="1" dy="5"><textPath href="#bn" startOffset="50%" text-anchor="middle">ORDEM E PROGRESSO</textPath></text><g fill="#fff"><circle cx="318" cy="168" r="5"/><circle cx="380" cy="152" r="5"/><circle cx="425" cy="178" r="5"/><circle cx="300" cy="205" r="5"/><circle cx="360" cy="196" r="5"/><circle cx="405" cy="212" r="5"/><circle cx="280" cy="225" r="5"/><circle cx="300" cy="310" r="5"/><circle cx="345" cy="330" r="5"/><circle cx="395" cy="322" r="5"/><circle cx="440" cy="292" r="5"/><circle cx="370" cy="352" r="5"/></g></svg>
+<div class="sign">ABERTO<br>24H</div><i class="knob"></i>
+</div>
+<pre class="code"><b>const</b> ideia = <i>"sua"</i>;
+<b>await</b> brShifit
+  .criar(ideia);
+<u>// site aberto 24h</u></pre>
+</div>
+</div></section>
+
+<section style="padding:28px 0 0"><div class="w"><div class="wa"><span>Fale com a BR SHIFIT<br>pelo WhatsApp</span><a class="pill wh" data-wa href="#"><svg class="ic" style="width:22px;height:22px" viewBox="0 0 24 24"><path d="M3 21l1.6-4.6A9 9 0 1 1 8 19.6z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2.2-1-1 .8a5 5 0 0 1-2-2l.8-1-1-2.2z"/></svg>Entrar</a></div></div></section>
+
+<section id="sobre"><div class="w">
+<h2>Conheça a BR SHIFIT</h2>
+<p class="lead">A BR SHIFIT nasceu com o propósito de aproximar pessoas e empresas da tecnologia.</p>
+<p class="lead">Trabalhamos com desenvolvimento de sites, soluções digitais e suporte tecnológico, buscando transformar necessidades em soluções práticas, modernas e acessíveis.</p>
+<p class="lead">Acreditamos que a tecnologia deve facilitar a vida das pessoas, impulsionar negócios e abrir novas possibilidades.</p>
+</div></section>
+
+<section id="servicos" style="padding-top:0"><div class="w">
+<h2>Nossos serviços</h2>
+<div class="grid g3">
+<article class="card feat sp"><h3>Criação de sites</h3><p>Nossa principal especialidade: experiências digitais modernas e profissionais, pensadas para apresentar sua marca e conquistar clientes.</p><button class="pill" data-s="Criação de sites">Solicitar informações</button></article>
+<article class="card"><h3>Soluções digitais</h3><ul><li>Desenvolvimento de ferramentas digitais</li><li>Criação de páginas personalizadas</li><li>Automatização de tarefas</li><li>Soluções digitais para necessidades específicas</li></ul><button class="pill ol" data-s="Soluções digitais">Solicitar informações</button></article>
+<article class="card"><h3>Suporte e ajuda em tecnologia</h3><ul><li>Orientações sobre ferramentas digitais</li><li>Auxílio com softwares e aplicativos</li><li>Configuração e utilização de recursos tecnológicos</li><li>Ajuda na resolução de dificuldades tecnológicas</li></ul><button class="pill ol" data-s="Suporte e ajuda em tecnologia">Solicitar informações</button></article>
+<article class="card"><h3>Consultoria tecnológica</h3><ul><li>Orientação para escolha de ferramentas</li><li>Sugestões de soluções digitais para negócios</li><li>Auxílio na modernização de processos</li><li>Orientação para melhorar a presença digital</li></ul><button class="pill ol" data-s="Consultoria tecnológica">Solicitar informações</button></article>
+</div></div></section>
+
+<section class="band" id="diferenciais"><div class="w">
+<h2>Mais do que tecnologia, soluções para você.</h2>
+<ul class="chk"><li>Atendimento personalizado</li><li>Soluções sob medida</li><li>Design moderno</li><li>Compromisso com qualidade</li><li>Tecnologia acessível</li><li>Foco nas necessidades do cliente</li></ul>
+</div></section>
+
+<section id="processo"><div class="w">
+<h2>Nosso processo</h2>
+<div class="grid g4">
+<div class="card"><span class="n">1</span><h3>Conversa</h3><p class="mut">Entendemos o que o cliente precisa.</p></div>
+<div class="card"><span class="n">2</span><h3>Planejamento</h3><p class="mut">Definimos a melhor solução.</p></div>
+<div class="card"><span class="n">3</span><h3>Desenvolvimento</h3><p class="mut">Transformamos a ideia em realidade.</p></div>
+<div class="card"><span class="n">4</span><h3>Entrega</h3><p class="mut">Apresentamos o resultado final.</p></div>
+</div></div></section>
+
+<section id="portfolio" style="padding-top:0"><div class="w">
+<h2>Portfólio</h2>
+<p class="lead">Projetos demonstrativos. Os trabalhos reais da BR SHIFIT serão publicados aqui.</p>
+<div class="car">
+<article class="card"><div class="shot s1"><i></i><i></i><i></i><i></i></div><div class="cb"><span class="tag">Exemplo</span><h3>Site institucional</h3><p class="mut">Modelo de site para apresentar uma empresa de serviços.</p><button class="pill ol" data-d>Ver exemplo</button><p class="note" hidden>Projeto demonstrativo. O portfólio real será preenchido em breve.</p></div></article>
+<article class="card"><div class="shot s2"><i></i><i></i><i></i><i></i></div><div class="cb"><span class="tag">Exemplo</span><h3>Loja online</h3><p class="mut">Modelo de vitrine com produtos e pedido pelo WhatsApp.</p><button class="pill ol" data-d>Ver exemplo</button><p class="note" hidden>Projeto demonstrativo. O portfólio real será preenchido em breve.</p></div></article>
+<article class="card"><div class="shot s3"><i></i><i></i><i></i><i></i></div><div class="cb"><span class="tag">Exemplo</span><h3>Painel de gestão</h3><p class="mut">Modelo de ferramenta digital para organizar tarefas e dados.</p><button class="pill ol" data-d>Ver exemplo</button><p class="note" hidden>Projeto demonstrativo. O portfólio real será preenchido em breve.</p></div></article>
+</div></div></section>
+
+<section class="ct" id="contato"><div class="w cg">
+<div>
+<h2>Vamos tirar sua ideia do papel?</h2>
+<p class="lead">Tem um projeto em mente ou precisa de ajuda com tecnologia? Entre em contato com a BR SHIFIT!</p>
+<p class="lead">O site e o formulário ficam abertos 24 horas por dia.</p>
+<div class="cl"><a class="pill" data-wa href="#">WhatsApp</a><a class="pill gh" data-ig href="#" target="_blank" rel="noopener">Instagram</a><a class="pill gh" data-mail href="#">E-mail</a></div>
+</div>
+<form id="f" novalidate>
+<label for="nm">Nome<input id="nm" name="nm" autocomplete="name"><span class="er" id="e-nm" role="alert"></span></label>
+<label for="em">E-mail<input id="em" name="em" type="email" autocomplete="email"><span class="er" id="e-em" role="alert"></span></label>
+<label for="sv">Serviço desejado<select id="sv" name="sv"><option value="">Selecione</option><option>Criação de sites</option><option>Soluções digitais</option><option>Suporte e ajuda em tecnologia</option><option>Consultoria tecnológica</option><option>Outro assunto</option></select><span class="er" id="e-sv" role="alert"></span></label>
+<label for="ms">Mensagem<textarea id="ms" name="ms"></textarea><span class="er" id="e-ms" role="alert"></span></label>
+<button class="pill" type="submit">Preparar mensagem</button>
+<div id="ok" tabindex="-1" hidden><p>Mensagem pronta. Escolha como enviar:</p><div class="row"><a class="pill" id="ok-wa" href="#">Enviar pelo WhatsApp</a><a class="pill gh" id="ok-ml" href="#">Enviar por e-mail</a></div></div>
+</form>
+</div></section>
+</main>
+
+<footer>
+<div class="w fg">
+<div><a class="logo" href="#inicio"><img class="lg" src="logo.png" alt="BR SHIFIT" width="140" height="62"></a><p>Criamos sites, soluções digitais e damos suporte em tecnologia para pessoas e empresas.</p></div>
+<div><h4>Navegação</h4><a href="#sobre">Quem somos</a><a href="#diferenciais">Diferenciais</a><a href="#processo">Processo</a><a href="#portfolio">Portfólio</a><a href="#contato">Contato</a></div>
+<div><h4>Serviços</h4><a href="#servicos">Criação de sites</a><a href="#servicos">Soluções digitais</a><a href="#servicos">Suporte e ajuda</a><a href="#servicos">Consultoria</a></div>
+<div><h4>Redes sociais</h4><a data-ig href="#" target="_blank" rel="noopener">Instagram</a><a data-wa href="#">WhatsApp</a><a data-mail href="#">E-mail</a></div>
+</div>
+<div class="w fb"><span>© 2026 BR SHIFIT. Todos os direitos reservados.</span><b>BR SHIFIT — Sua ideia. Nossa tecnologia.</b></div>
+</footer>
+
+<a class="tab" href="#contato">Peça um orçamento</a>
+
+<div id="bg" hidden data-x></div>
+<aside id="dr" aria-label="Menu">
+<div class="rail">
+<button data-x aria-label="Fechar menu"><svg class="ic" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+<button class="on" data-p="n" aria-label="Navegação"><svg class="ic" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></svg></button>
+<button data-p="s" aria-label="Serviços"><svg class="ic" viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg></button>
+<button data-p="c" aria-label="Contato"><svg class="ic" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg></button>
+</div>
+<div class="pnl">
+<div class="pn" id="p-n"><h2>NAVEGAÇÃO</h2><a href="#inicio">Início</a><a href="#sobre">Quem somos</a><a href="#servicos">Serviços</a><a href="#diferenciais">Diferenciais</a><a href="#processo">Processo</a><a href="#portfolio">Portfólio</a><a href="#contato">Contato</a></div>
+<div class="pn" id="p-s" hidden><h2>SERVIÇOS</h2><a href="#servicos">Criação de sites</a><a href="#servicos">Soluções digitais</a><a href="#servicos">Suporte e ajuda em tecnologia</a><a href="#servicos">Consultoria tecnológica</a></div>
+<div class="pn" id="p-c" hidden><h2>CONTATO</h2><a data-wa href="#">WhatsApp</a><a data-ig href="#" target="_blank" rel="noopener">Instagram</a><a data-mail href="#">E-mail</a><a href="#contato">Formulário de contato</a></div>
+</div>
+</aside>
+
+<script>
+/* EDITE AQUI: contatos reais (placeholders) */
+const CFG={whatsapp:"5500000000000",instagram:"https://www.instagram.com/br.shift",email:"br.shiftzin@gmail.com"};
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const wa=t=>"https://wa.me/"+CFG.whatsapp+(t?"?text="+encodeURIComponent(t):"");
+$$("[data-wa]").forEach(a=>a.href=wa("Olá! Vim pelo site da BR SHIFIT."));
+$$("[data-ig]").forEach(a=>a.href=CFG.instagram);
+$$("[data-mail]").forEach(a=>a.href="mailto:"+CFG.email);
+const dr=$("#dr"),bt=$(".burger");
+const open=o=>{dr.classList.toggle("on",o);$("#bg").hidden=!o;bt.setAttribute("aria-expanded",o);document.body.style.overflow=o?"hidden":""};
+bt.onclick=()=>open(true);
+$$("[data-x]").forEach(b=>b.onclick=()=>open(false));
+$$("#dr a").forEach(a=>a.addEventListener("click",()=>open(false)));
+addEventListener("keydown",e=>e.key==="Escape"&&open(false));
+$$(".rail [data-p]").forEach(b=>b.onclick=()=>{$$(".rail [data-p]").forEach(x=>x.classList.toggle("on",x===b));$$(".pn").forEach(p=>p.hidden=p.id!=="p-"+b.dataset.p)});
+$("#sc").onclick=()=>$(".st").remove();
+$$("[data-d]").forEach(b=>b.onclick=()=>{const n=b.nextElementSibling;n.hidden=!n.hidden});
+$$("[data-s]").forEach(b=>b.onclick=()=>{$("#sv").value=b.dataset.s;$("#contato").scrollIntoView();$("#nm").focus({preventScroll:true})});
+const f=$("#f");
+const err=(i,m)=>{$("#e-"+i).textContent=m;$("#"+i).setAttribute("aria-invalid",!!m);return!m};
+f.onsubmit=e=>{
+e.preventDefault();
+const n=f.nm.value.trim(),m=f.em.value.trim(),s=f.sv.value,g=f.ms.value.trim();
+const ok=[err("nm",n.length<2?"Informe seu nome.":""),
+err("em",/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(m)?"":"Informe um e-mail válido."),
+err("sv",s?"":"Escolha um serviço."),
+err("ms",g.length<10?"Conte um pouco mais (mínimo de 10 caracteres).":"")].every(Boolean);
+if(!ok)return;
+const t="Olá! Sou "+n+" ("+m+"). Serviço: "+s+". "+g;
+$("#ok-wa").href=wa(t);
+$("#ok-ml").href="mailto:"+CFG.email+"?subject="+encodeURIComponent("Orçamento: "+s)+"&body="+encodeURIComponent(t);
+$("#ok").hidden=false;$("#ok").focus();
+};
+</script>
+</body>
+</html>
